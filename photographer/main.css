@@ -1,0 +1,114 @@
+
+
+#navbar {
+	text-align: right;
+}
+
+#navbar a {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+}
+
+#navbar a:hover{
+	background-color: #4CAF50; /* Green */
+  color: white;
+
+}
+
+#navbar .active{
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.centered, .centered2{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.centered img{
+	width:50%;
+	height:auto;
+}
+.reviews{
+	text-align:center;
+	margin-top:10em;
+	margin-left:auto;
+	margin-right:auto;
+	width:15em;
+}
+.reviews p{
+	margin-top:1em;
+	margin-bottom:1em;
+	font-size:15pt;
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+  }
+.portfolio img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+.rotate{
+	transform:rotate(90deg)
+}
+
+.contact{
+	text-align:center;
+	margin-top:10em;
+}
+.contact h1{
+	font-size:25pt;
+	
+}
+
+.centered2 img{
+	width:40%;
+	height:auto;
+}
+.description{
+	text-align: center;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -30px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height: 30px;
+}
+.footer {
+  background: red;
+}
+.footer a{
+	color:white;
+	text-decoration: none;
+}
+footer{
+	text-align: center;
+}
